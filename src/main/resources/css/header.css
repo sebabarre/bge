@@ -1,0 +1,159 @@
+.header-content{
+  margin-top:10px;
+  max-width:100% !important;
+  position:relative;
+}
+
+.header-content>section{
+ 	max-width:1024px;
+	margin-left:auto;
+  	margin-right:auto;
+  	position:relative;
+}
+
+.header-row1 div{
+  height:35px;
+}
+
+.header-banner div{
+  height:100%;
+  width:auto;
+  padding-left:65px;
+  padding-top:15px;
+}
+
+.header-links{
+  position:absolute;
+  right:10px;
+}
+
+.header-links div, .header-links p{
+  display:inline-block;
+  margin-left:2px;
+  margin-right:2px;
+}
+
+.header-links a{
+  display:inline-block;
+}
+
+.header-links img{
+ 	height:15px;
+  	width:auto;
+  	margin-bottom:5px;
+}
+
+.header-links-break p{
+  	color:#ededee;
+ 	margin-left:4px;
+  	margin-right:4px;
+}
+
+.header-lang p{
+  margin-left:4px;
+  margin-right:4px;
+}
+
+.header-social img{
+  height:35px;
+  width:auto;
+}
+
+.header-social-first img{
+ margin-left:30px; 
+}
+
+.header-menu{
+	position:absolute;
+	bottom:0px;
+}
+
+.header-menu>div, .header-menu>a{
+  color:#004a99;
+  display:inline-block;
+  text-align:center;
+  margin-left:1px;
+  margin-right:1px;
+  height:30px;
+  width:auto;
+  padding-left:20px;
+  padding-right:20px;
+  text-decoration:none;
+}
+
+.header-menu>div>a{
+  color:#004a99;
+}
+
+.menu-dropdown-link{
+  color:#004a99 !important;
+}
+
+div.dropdown a:active, .header-menu>a:active, 
+div.dropdown a:visited, .header-menu>a:visited, 
+div.dropdown a:focus, .header-menu>a:focus{
+  text-decoration:none;
+}
+
+.header-menu div:hover, 
+.menu-dropdown-link:hover,
+.header-menu>a:hover{
+  text-decoration:none;
+  cursor:pointer;
+  background-color:#ededee;
+  background-image:none !important;
+}
+
+.header-background{
+  position:absolute;
+  top:-90px;
+  right:-100px;
+  z-index:-1;
+}
+
+.header-background>img{
+  height:194px;
+  width:auto;
+  
+}
+
+.header-break{
+	height:10px;
+  	background-color:#ededee;
+  	max-width:100% !important;
+ 	box-shadow: 0 2px #cccccf;
+  	margin-bottom:10px;
+}
+
+.menu-active{
+  text-decoration:none;
+  cursor:pointer;
+  background-color:#ededee;
+  background-image:none !important;
+}
+
+
+
+@media screen and (max-width:1050px){
+  	.header-banner div{
+   		padding-top:5px; 
+    	padding-left:5px;
+	}
+  
+ 	.header-menu{
+  		position:relative; 
+	}
+
+	.header-social-first img{
+ 		margin-left:0; 
+	}
+}
+
+@media screen and (max-width:800px){
+	.header-links{
+  		position:relative;
+	}
+	.header-row1 div{
+  		height:100%;
+	}
+}

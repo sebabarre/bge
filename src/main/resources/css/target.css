@@ -1,0 +1,333 @@
+/*
+////////
+	TARGET GENREAL
+////////
+*/
+
+
+.target-background{
+  height:100px;
+  width:100%;
+  position:absolute;
+  left:0;
+  margin-top:70px;
+}
+
+.target-banner{
+  position:relative;
+  margin-top:110px;
+  height:60px;
+  z-index:1;
+}
+
+.target-main{
+  margin-top:30px;
+  position:relative;
+}
+
+.target-banner-img{
+  position:absolute;
+  bottom:0;
+}
+
+.target-banner-img img{
+  height:216px;
+  width:auto;
+}
+
+.target-banner-text{
+  margin-left:200px;
+  text-transform: uppercase;
+  color: white;
+  font-size: x-large;
+}
+
+.titrebleu{
+  color: #284c96;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: 42px;
+}
+
+.titregris{
+  color: #666666;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: 42px;
+}
+
+
+/*
+////////
+	CREATOR
+///////
+*/
+
+.creator-background{
+  background-color:#f28c00;
+  height:100%
+}
+
+.target-carousel{
+  max-width: 100%
+}
+
+.target-carousel{
+ max-width:150px; 
+}
+
+.carousel-cible{
+  background-color: #f28c00;
+  width:300px;
+  position:absolute;
+  right:0;
+  top:0;
+  max-width:100%;
+  min-height:150px;
+}
+
+@media screen and (max-width:1024px){
+	.carousel-cible{
+    	position:relative;
+    	width:100%;
+  	}
+}
+
+.carousel-cible h2{
+  color: white !important;
+  text-align:center;
+  font-size: 18px !important;
+  margin-top:10px !important;
+  margin-bottom:10px !important;
+}
+.carousel-cible p{
+  color: white !important;
+  font-size: 16px !important;
+}
+
+.carousel-cible .carousel-caption{
+  width:100% !important;
+  left: 0 !important;
+  padding-top:30px  !important;
+  text-shadow: none !important;
+  text-align:left !important;
+}
+
+.carousel-cible .carousel-inner .container{
+  width: 100% !important;
+  min-height:100px !important;
+}
+
+.creator-area {
+  margin-left: 42px;
+  color: #f28c00;
+  margin-right:350px;
+}
+
+@media screen and (max-width:1024px){
+	.creator-area{
+    	margin-right:0;
+  	}
+}
+
+.creator-area p{
+  margin-left: 0px;
+}
+
+.creator-area ul{
+  list-style-type: none;
+}
+
+.creator-area li{ 
+    content:"•   ";
+    color: #666666;
+}
+
+.creator-area li:before{ 
+ 	content:"•   ";
+    font-size:25px;
+    color: #f28c00;
+}
+
+.creator-area h1, .creator-area h2,
+.creator-area h3, .creator-area h4,
+.creator-area h5, .creator-area h6{
+  color: #284c96;
+  text-transform: uppercase;
+}
+
+/*
+////////
+	DIRIGEANT
+///////
+*/
+
+.dirigeant-background{
+  background-color: #009fe3;
+  height:100%;
+}
+
+.dirigeant-area {
+  margin-left: 42px;
+  color: #009fe3;
+}
+
+.dirigeant-area p{
+  margin-left: 0px;
+}
+
+.dirigeant-area ul{
+  list-style-type: none;
+}
+
+.dirigeant-area li{ 
+    content:"•   ";
+    color: rgb(104,104,104);
+}
+
+.dirigeant-area li:before{ 
+ 	content:"•   ";
+    font-size:25px;
+    color: #009fe3;
+}
+
+.dirigeant-area h1, .dirigeant-area h2,
+.dirigeant-area h3, .dirigeant-area h4,
+.dirigeant-area h5, .dirigeant-area h6{
+  color: #284c96;
+  text-transform: uppercase;
+}
+
+/*
+//////////////
+	COLLECTIVITE
+//////////////
+*/
+
+.collectivite-background{
+  background-color:#80ba27;
+  height:100%;
+}
+
+.coll-area {
+  margin-left: 42px;
+  width: 700px;
+  color: #80ba27;
+}
+
+.coll-area p{
+  margin-left: 0px;
+}
+
+.coll-area ul{
+  list-style-type: none;
+}
+
+.coll-area li{ 
+    content:"•   ";
+    color: rgb(104,104,104);
+}
+
+.coll-area li:before{ 
+  content:"•   ";
+    font-size:25px;
+    color: #80ba27;
+}
+
+.coll-area h1, .coll-area h2,
+.coll-area h3, .coll-area h4,
+.coll-area h5, .coll-area h6{
+  color: #284c96;
+  text-transform: uppercase;
+}
+
+/*
+//////////
+	EMPLOYEUR
+/////////////
+*/
+
+.employeur-background{
+  background-color:#ffd300;
+  height:100%;
+}
+
+.titreemploy {
+color: #004a99;
+}
+
+.employ-area {
+  margin-left: 42px;
+  width: 700px;
+  color: #004a99;
+}
+
+.employ-area p{
+  margin-left: 0px;
+}
+
+.employ-area ul{
+  list-style-type: none;
+}
+
+.employ-area li{ 
+    content:"•   ";
+    color: rgb(104,104,104);
+}
+
+.employ-area li:before{ 
+  content:"•   ";
+    font-size:25px;
+    color: #ffd300;
+}
+
+.employ-area h1, .employ-area h2,
+.employ-area h3, .employ-area h4,
+.employ-area h5, .employ-area h6{
+  color: #666666;
+  text-transform: uppercase;
+}
+
+
+/*
+//////////////
+	ENSEIGNEMNT
+///////////
+*/
+
+.enseignement-background{
+  background-color:#e63329;
+  height:100%;
+}
+
+.enseign-area {
+  margin-left: 42px;
+  width: 700px;
+  color: #e63329;
+}
+
+.enseign-area p{
+  margin-left: 0px;
+}
+
+.enseign-area ul{
+  list-style-type: none;
+}
+
+.enseign-area li{ 
+    content:"•   ";
+    color: rgb(104,104,104);
+}
+
+.enseign-area li:before{ 
+  content:"•   ";
+    font-size:25px;
+    color: #e63329;
+}
+
+.enseign-area h1, .enseign-area h2,
+.enseign-area h3, .enseign-area h4,
+.enseign-area h5, .enseign-area h6{
+  color: #284c96;
+  text-transform: uppercase;
+}

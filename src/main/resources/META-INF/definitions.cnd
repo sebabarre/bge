@@ -1,0 +1,69 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<mix = 'http://www.jcp.org/jcr/mix/1.0'>
+
+[jnt:carouselTemoignage] > jnt:content, jmix:queryContent, jmix:list, mix:title, jmix:cache
+ - maxTemoignages (long)
+
+[jnt:sliderImage] > jnt:content, jmix:structuredContent orderable
+ + * (jnt:imageWithLink)
+
+[jnt:lastTemoignage] > jnt:content, mix:title, jmix:queryContent, jmix:list
+ - maxTem (long)
+
+[jnt:dropdown] > jnt:content, jmix:structuredContent orderable
+ - name (string)
+ + * (jnt:buttonLink)
+
+[jnt:temoignage] > jnt:content, mix:title, jmix:editorialContent, jmix:structuredContent
+ - jcr:title (string)
+ - image (weakreference, picker[type='image'])
+ - resume (string, richtext)
+ - content (string, richtext)
+ - date (date) = now()
+
+[jnt:lastActu] > jnt:content, mix:title, jmix:list, jmix:queryContent, jmix:structuredContent
+ - maxActu (long)
+ - view (string, choicelist) = 'home', 'page' < 'home', 'page'
+
+[jnt:descriptionOver] > jnt:content, jmix:structuredContent
+ - LinkID (string)
+ - Description (string, richtext)
+
+[jnt:imageWithLink] > jnt:content, jmix:structuredContent
+ - image (weakreference, picker[type='image'])
+ - tooltip (string)
+ - url (string)
+ - target (string, choicelist) = '_blank', '_self', '_top', '_parent' < '_blank', '_self', '_top', '_parent'
+
+[jnt:imageWithOver] > jnt:content, jmix:structuredContent
+ - default (weakreference, picker[type='image'])
+ - over (weakreference, picker[type='image'])
+ - alt (string, text[type='SimpleText'])
+ - urlLink (string, text[type='SimpleText'])
+ - urlTarget (string, choicelist) = '_blank', '_top', '_self', '_parent' < '_blank', '_top', '_self', '_parent'
+
+[jnt:customCarousel] > jnt:content, jmix:multimediaContent
+ + * (jnt:sampleCarouselItem)
+
+[jnt:fileDownload] > jnt:content, mix:title, jmix:structuredContent
+ - jcr:title (string)
+ - file (reference, picker[type='file'])
+
+[jnt:actualite] > jnt:content, mix:title, jmix:structuredContent, jmix:editorialContent
+ - jcr:title (string)
+ - image (weakreference, picker[type='image'])
+ - resume (string, richtext)
+ - content (string, richtext)
+ - date (date) = now()
+
+[jnt:imageDownload]
+ - image (weakreference)
+ - fileToDownload (weakreference)
+
+[jnt:buttonLink] > jnt:content, jmix:structuredContent
+ - name (string, text[type='SimpleText'])
+ - url (string, text[type='SimpleText'])
+
+[jnt:contactFormBGE] > jnt:content, jmix:structuredContent
+

@@ -1,0 +1,53 @@
+.contact-page-content{
+ position:relative; 
+}
+
+.contact-page-content h1,
+.contact-page-content h2,
+.contact-page-content h3,
+.contact-page-content h4,
+.contact-page-content h5{
+  color:#284c96;
+}
+
+.contact-label{
+  position:absolute;
+  width:150px;
+  left:10px;
+  text-align: right;
+}
+
+.contact-entries{
+  margin-left:150px;
+  width:300px;
+}
+
+.contact-star{
+  position:absolute;
+  color:#f28c00;
+  margin-left: 5px;
+}
+
+.contact-textarea{
+  height:150px;
+  width:300px;
+}
+
+.contact-list{
+  list-style-type: none;
+}
+
+.contact-list li{
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.contact-select{
+  width:300px;
+  height:30px;
+}
+
+.contact-help{
+  position:absolute;
+  right:10px;
+}

@@ -1,0 +1,440 @@
+/*
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////            PAGE PRODUIT COMMUN                             ///                                                              ///
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+#en-tete{
+width: 620px;
+margin-left: 0px;
+height: 40px;
+position: relative;
+border-bottom: solid;
+border-color:  rgb(188,188,188); 
+}
+
+.titre-bleu-uppercase {
+  color: #284c96;
+  font-size: 20px;
+  margin-left: -15px;
+  text-transform: uppercase;
+}
+
+.formations-title{
+  color: #284c96;
+  font-size:20px;
+  height:28px;
+}
+
+.formations-background-circle{
+  position:absolute;
+  z-index:-1;
+  top:-18px;
+  right:0;
+  width:347px;
+  height:auto;
+  background-color:transparent
+}
+
+.formations-name{
+  font-weight: bold;
+  font-size: 28px; 
+  width: 600px;
+  min-height: 80px;
+}
+
+.formations-name-gerer{
+  color: #b0cb76; 
+}
+.formations-name-immatriculer{
+  color: #e9c85f; 
+}
+.formations-name-communiquer{
+  color: #009e9a; 
+}
+.formations-name-vendre{
+  color: #f2b5c8; 
+}
+.formations-name-perfectionner{
+  color: #7bc2c5; 
+}
+
+.formations-themes ul{
+  margin:10px 0 0 0 !important;
+}
+
+.formations-details-column{
+ color: white;
+ margin: 0;
+ line-height: 15px;
+}
+
+.formations-details-column>div{
+  padding: 10px 10px 10px 30px;
+  margin-bottom:10px;
+  position:relative;
+}
+
+.formations-details-gerer{
+  background-color:#b0cb76;
+}
+.formations-details-immatriculer{
+  background-color:#e9c85f;
+}
+.formations-details-communiquer{
+  background-color:#009e9a;
+}
+.formations-details-vendre{
+  background-color:#f2b5c8;
+}
+.formations-details-perfectionner{
+  background-color:#7bc2c5;
+}
+
+
+/*
+///////////////  LES PICTOGRAMMES  ////////////////////////////////////////////////////
+*/
+
+/* pictogrammes bleus */
+div#photoflot3 img{ 
+  float:left; 
+  background-color: transparent;
+  height: 20px;
+  width: 20px;  
+  position: absolute;
+  margin-left: -30px;
+}
+
+/* pictogrammes blancs */
+div#photoflot4 img{ 
+  background-color: transparent;
+  height: 20px;
+  width: 20px;  
+  position: absolute;
+  left: 5px;
+  margin: 6px 0 0 0px;
+}
+
+.titre-bleu-picto{
+  color: #284c96;
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 5px;
+  line-height: initial;  
+}
+
+.titre-blanc-picto{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+  line-height: initial;
+}
+
+/*
+///////////////////////////////////////////////////////////////////
+  Partie Détails formation 
+*/
+.main-side1{
+  width: 300px;
+  margin-left: 42px;
+}
+
+.padding-list li{
+ margin-left: -10px; 
+}
+
+/*
+///////////////////////////////////////////////////////////////////
+   Partie contenu formation
+*/
+
+.formations-content{
+    border-top: solid #ededee;
+  	padding-top:10px;
+}
+
+/*
+///////////////////////////////////////////////////////////////////
+   Partie sessions
+*/
+/*bordure cadre bleu foncé */
+.sessionbleuf {
+ border-color:  #284c96; 
+ border-style: solid;
+ padding: 10px 10px 10px 40px;
+ color: #666666;
+}
+
+/*
+///////////////////////////////////////////////////////////////////
+   Partie Dates sessions
+*/
+/* Couleur texte par défaut */
+.no-padding-session{
+/* color: rgb(188,188,188);  */
+ color: #666666;  
+}
+
+
+/*
+///////////////////////////////////////////////////////////////////
+   Partie lieu prix inscription sessions
+*/
+
+.no-padding {
+ margin-bottom: 10px;
+}
+
+.no-padding address{
+/* color: rgb(188,188,188);*/
+ margin-bottom: 0px !important;
+}
+
+/* Couleur email */
+.no-padding u{
+  color: #284c96;
+}
+
+/*///////////////////////////////////////////////////////////////////
+    Partie Thématiques
+*/
+.titregrisclair{
+  color: rgb(188,188,188);
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.thematiques, .vendre a,
+.gerer a, .immatriculer a,
+.communiquer a, .perfectionner a{
+ color: #284c96; 
+ text-transform: uppercase;
+ margin-left: 0px;
+}
+
+.vendre ul{
+  list-style-type: none;
+}
+
+.vendre li{ 
+    content:"•   ";
+}
+
+.vendre li:before{ 
+ 	content:"•   ";
+    font-size: 65px;
+    vertical-align: bottom;
+    color: #f2b5c8;
+}
+
+.gerer ul{
+  list-style-type: none;
+}
+
+.gerer li{ 
+    content:"•   ";
+}
+
+.gerer li:before{ 
+ 	content:"•   ";
+    font-size: 65px;
+    vertical-align: bottom;
+    color: #b0cb76;
+}
+
+.immatriculer ul{
+  list-style-type: none;
+}
+
+.immatriculer li{ 
+    content:"•   ";
+}
+
+.immatriculer li:before{ 
+ 	content:"•   ";
+    font-size:65px;
+    vertical-align: bottom;
+    color: #e9c85f;
+}
+
+.communiquer ul{
+  list-style-type: none;
+}
+
+.communiquer li{ 
+    content:"•   ";
+}
+
+.communiquer li:before{ 
+ 	content:"•   ";
+    font-size: 65px;
+    vertical-align: bottom;
+    color: #009e9a;
+}
+
+.perfectionner ul{
+  list-style-type: none;
+}
+
+.perfectionner li{ 
+    content:"•   ";
+}
+
+.perfectionner li:before{ 
+ 	content:"•   ";
+    font-size:65px;
+    vertical-align: bottom;
+    color: #7bc2c5;
+}
+
+/*
+////////////////////////////////////////////////////////////////////
+////            PAGE PRODUIT VENDRE                             ///
+///////////////////////////////////////////////////////////////////
+*/
+
+/* griser le thème affiché */
+.vendrev, .vendrev a{
+  color: #666666;
+}
+
+.vendrev ul{
+  list-style-type: none;
+}
+
+.vendrev li{ 
+    content:"•   ";
+}
+
+.vendrev li:before{ 
+ 	content:"•   ";
+    font-size: 65px;
+    vertical-align: bottom;
+    color: #666666;
+}
+
+/*
+////////////////////////////////////////////////////////////////////
+////            PAGE PRODUIT COMMUNIQUER                        ///
+///////////////////////////////////////////////////////////////////
+*/
+
+
+/* griser le thème affiché */
+.communiquerc, .communiquerc a{
+  color: #666666;
+}
+
+.communiquerc ul{
+  list-style-type: none;
+}
+
+.communiquerc li{ 
+    content:"•   ";
+}
+
+.communiquerc li:before{ 
+ 	content:"•   ";
+    font-size: 65px;
+    vertical-align: bottom;
+    color: #666666;
+}
+
+/*
+////////////////////////////////////////////////////////////////////
+////            PAGE PRODUIT GERER                              ///
+///////////////////////////////////////////////////////////////////
+*/
+/* fond vert */
+.cadrevert {
+ background-color: #b0cb76; 
+ color: white;
+ margin: 0 0 10px 42px;  
+ padding: 20px 10px 10px 40px;
+ line-height: 15px;
+}
+
+.titre-fiche-vert {
+  color: #b0cb76; 
+  font-weight: bold;
+  font-size: 30px;
+  margin: -30px 0 0 42px;  
+  width: 600px;
+  height: 80px;
+  line-height: normal;
+}
+
+/* griser le thème affiché */
+.gererg, .gererg a{
+  color: #666666;
+}
+
+.gererg ul{
+  list-style-type: none;
+}
+
+.gererg li{ 
+    content:"•   ";
+}
+
+.gererg li:before{ 
+ 	content:"•   ";
+    font-size: 65px;
+    vertical-align: bottom;
+    color: #666666;
+}
+
+/*
+////////////////////////////////////////////////////////////////////
+////            PAGE PRODUIT IMMATRICULER                       ///
+///////////////////////////////////////////////////////////////////
+*/
+
+/* griser le thème affiché */
+.immatriculeri, .immatriculeri a{
+ color: #666666; 
+}
+
+.immatriculeri ul{
+  list-style-type: none;
+}
+
+.immatriculeri li{ 
+    content:"•   ";
+}
+
+.immatriculeri li:before{ 
+ 	content:"•   ";
+    font-size:65px;
+    vertical-align: bottom;
+    color: #666666;
+}
+
+/*
+////////////////////////////////////////////////////////////////////
+////            PAGE PRODUIT SE PERFECTIONNER                   ///
+///////////////////////////////////////////////////////////////////
+*/
+
+/* griser le thème affiché */
+.perfectionnerp, .perfectionnerp a{
+  color: #666666;
+}
+
+.perfectionnerp ul{
+  list-style-type: none;
+}
+
+.perfectionnerp li{ 
+    content:"•   ";
+}
+
+.perfectionnerp li:before{ 
+ 	content:"•   ";
+    font-size:65px;
+    vertical-align: bottom;
+    color: #666666;
+}  

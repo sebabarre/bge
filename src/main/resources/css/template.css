@@ -1,0 +1,85 @@
+/*
+////////////////////////////////////////////////////////////////////
+////						GENERAL								///
+///////////////////////////////////////////////////////////////////
+*/
+
+
+.overall-template{
+  position:relative;
+  font-family: "Poppins-Regular";
+  overflow:hidden;
+}
+
+.default-template{
+  margin-top:10px;
+  margin-bottom:10px;
+  position:relative;
+}
+
+.default-template h1,
+.default-template h2,
+.default-template h3,
+.default-template h4,
+.default-template h5{
+  color:#284c96;
+}
+
+.title-blue{
+  color:#284c96;
+  font-size:20px;
+  font-weight:bold;
+}
+
+.base-content>div, .base-content>section{
+  width:1024px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+@media screen and (max-width:1024px){
+  .base-content>div, .base-content>section{
+    width:100%;
+  }
+}
+
+.row-fluid{
+  margin:0;
+  padding:0;
+}
+
+.container-fluid{
+  margin:0 !important;
+  padding:0 !important;
+}
+
+.to-hide{
+	display:show;
+}
+
+@media screen and (max-width:700px){
+	.to-hide{
+    	display:none !important;
+  	}
+}
+
+.thebreadcrumb{
+ 	text-transform: uppercase;
+ 	margin: 0 0 10px 0;
+ 	z-index: 10;
+  	position:relative;
+}
+
+.thebreadcrumb li:before{
+  content: none !important;
+}
+
+.thebreadcrumb a{
+  color: #ccc;
+}
+
+.thebreadcrumb ul{
+  background-color: transparent;
+  padding: 0 !important;
+}
+
